@@ -1,7 +1,5 @@
-require './lib/ingredient'
-require './lib/recipe'
 
-class Pantry < Recipe
+class Pantry
   attr_accessor :stock
 
   def initialize
